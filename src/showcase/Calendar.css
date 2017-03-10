@@ -1,0 +1,51 @@
+.logo {
+    height: 32px;
+    margin-right: 1em;
+}
+
+table {
+    width: 274px;
+}
+
+th, td {
+    text-align: center;
+}
+
+td {
+    padding: 0.2em 0.5em;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+caption {
+    text-align: center !important;
+    caption-side: top !important;
+}
+
+.week {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    color: #818a91;
+    font-size: smaller;
+    border-right: 1px solid #eceeef;
+}
+
+.weekend {
+    color: #818a91;
+}
+
+.today {
+    color: white;
+    background: #5bc0de;
+}
+
+.active {
+    background: #0275d8;
+    color: white;
+}
+
+.other-month {
+    color: #eceeef !important;
+}
+
