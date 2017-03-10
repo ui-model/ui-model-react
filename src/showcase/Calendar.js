@@ -51,7 +51,7 @@ export default class Calendar extends Component {
         <button type="button" className="btn btn-secondary float-xs-left" onClick={() => this.calendar.goToPrevMonth()} title="Previous Month">
           &lt;
         </button>
-        {this.calendar.value ? this.calendar.value.toDateString() : '- Choose -'}
+        {this.calendar.value ? this.calendar.value.toLocaleDateString() : '- Choose -'}
         <button type="button" className="btn btn-danger float-xs-right" onClick={()=>this.calendar.clear()}>X</button>
         <button type="button" className="btn btn-secondary float-xs-right" onClick={() => this.calendar.goToNextMonth()} title="Next Month">
           &gt;
